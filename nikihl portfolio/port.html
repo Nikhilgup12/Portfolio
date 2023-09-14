@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3105a1c5c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="port.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="nav-logo text-uppercase">Nikhil </span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navlink1" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link link1" id="navlink2" href="#aboutsection">About </a>
+                    <a class="nav-link" id="navlink3" href="#servicessection">services </a>
+                    <a class="nav-link" id="navlink4" href="#portfoliosection">Portfolio </a>
+                    <a class="nav-link" id="navlink5" href="#sectionContact">contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="Portfolio-background-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-md-2">
+                    <div class="portfolio-image-container mt-5 text-center">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1683213543/1677213654950_nk5eek.jpg" class="portfoilo-image" />
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7 order-md-1">
+                    <div class="mt-5 text-center">
+
+                        <h1 class="portfolio-heading"> Hi, I'am <span class="auto-typed"> </span></h1>
+                        <p class="portfolio-discription mt-3"> I'm a Full-stack Developer </p>
+                        <p class="portfolio-discription1 mt-3"> High level experiences in web design and development knowledge Producing Quality work.</p>
+                        <button class="btn btn-info portfolio-button mt-3"> Hire me </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about-container pt-5 pb-5 p-2" id="aboutsection">
+        <div class="container ">
+            <div class=" shadow row p-2 about-main-container m-auto">
+
+                <div class="col-12 col-md-3 col-lg-2 p-4">
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1683213543/1677213654950_nk5eek.jpg" class="about-image" />
+                </div>
+                <div class="col-12 col-md-4 col-lg-4  ml-lg-4 p-4 mt-md-2">
+                    <h4 class="profile-name"> Name: <span class="profile-span"> Nikhil Gupta </span></h4>
+                    <h4 class="profile-name"> profile: <span class="profile-span"> Full Stack Developer </span></h4>
+                    <h4 class="profile-name"> Email: <span class="profile-span"> ng873042@gmail.com </span></h4>
+                    <h4 class="profile-name"> Phone: <span class="profile-span"> 8424852414 </span></h4>
+                </div>
+                <div class="col-12 col-md-5 col-lg-5 p-4">
+                    <h1 class="about-heading"> About me </h1>
+                    <p class="about-discription mt-4"> As a full stack developer, I am passionate about building dynamic,
+                        responsive, and scalable web applications that provide engaging user
+                        experiences. With extensive experience in both front-end and back-end
+                        development, I am well-versed in a wide range of programming languages,
+                        frameworks, and technologies.My expertise in HTML, CSS,
+
+                    </p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-between">
+
+                        <button class="p-2 button selected-button" id="skillButton" onclick="skillchangeButton()">Skills</button>
+                        <button class="p-2 button" id="expButton" onclick="expchangeButton()"> experiences </button>
+                        <button class="p-2 button " id="eduButton" onclick="educhangeButton()"> Eductaion </button>
+                    </div>
+                    <div class="tabs-container">
+
+                        <div class="p-3" id="skillTab">
+
+                            <p class="tab-content">
+                            <ul>
+                                <li> <span class="span-name"> web development </span> <br> <span class="span-name1"> Design Website and development </span> </li>
+                                <li> <span class="span-name"> Ui/UX Design </span> <br> <span class="span-name1"> Design Web development and mobile app </span> </li>
+                                <li> <span class="span-name"> frameworks </span> <br> <span class="span-name1"> Bootstrap </span> </li>
+                                <li> <span class="span-name"> Fronted development </span> <br> <span class="span-name1"> Html, Css, Bootstrap, Javascript </span></li>
+                            </ul>
+                            </p>
+
+
+                        </div>
+
+
+
+                        <div class="p-3" id="experiencesTab">
+                            <p class="tab-content">
+                            <ul>
+                                <li> <span class="span-name"> 2023 Internship </span> <br> <span class="span-name1"> Web development at OASIS INFOBYTE </span> </li>
+                                <li> <span class="span-name">2023 Internship </span> <br> <span class="span-name1"> Web development at Code Alpha </span> </li>
+                                <li> <span class="span-name"> programming </span> <br> <span class="span-name1"> Python Question solve more than 1000++ </span> </li>
+                                <li> <span class="span-name"> responsive Design </span> <br> <span class="span-name1"> Html, Css, Bootstrap, Javascript More than make Project </span></li>
+                            </ul>
+                            </p>
+                        </div>
+
+
+
+                        <div class="p-3" id="educationTab">
+                            <p class="tab-content">
+                            <ul>
+                                <li> <span class="span-name"> 2023 Second-Year Ongoing </span> <br> <span class="span-name1"> Computer science BTECH Thakur College </span> </li>
+                                <li> <span class="span-name">2022 !2th Class </span> <br> <span class="span-name1"> Science Student Vikash College </span> </li>
+                                <li> <span class="span-name"> 2021 !0th Class </span> <br> <span class="span-name1"> Joymax English high School </span> </li>
+
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary"> Download CV </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="services-container pt-5 pb-5 p-3" id="servicessection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="Services-heading mb-3 text-center"> My Services </h1>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 ">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-solid fa-code icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> Web Design </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-solid fa-crop icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> Web Development </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 ">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-solid fa-mobile-screen icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> Responsive Design </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 ">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-solid fa-code icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> Video Editing </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 ">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-brands fa-app-store-ios icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> Static Web Design </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 ">
+                            <div class="shadow services-item text-center mt-3 mb-3 p-4">
+                                <i class="fa-brands fa-airbnb icon"></i>
+
+                                <h1 class="services-container-heading mt-3"> AI Services </h1>
+                                <p class="service-container-discription mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container pt-5 pb-5 p-3" id="portfoliosection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="Services-heading text-center mb-5"> PORTFOLIO </h1>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="shadow project-bottom p-2">
+                                <a href="food.html"><img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1693675043/images_lvqxoh.jpg" class="mt-2 w-100 project-image" /> </a>
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <h1 class="project-item-heading"> Restaurant Website </h1>
+                                            <p class="project-item-discription"> Food Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="  col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="shadow project-bottom p-2">
+                                <a href="todo.html" ><img src="https://i.stack.imgur.com/thsNp.jpg" class="mt-2 w-100 project-image" /> </a>
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div class="">
+                                            <h1 class="project-item-heading"> TodoList Project </h1>
+                                            <p class="project-item-discription"> Food Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-md-6 col-lg-4 mb-3">
+                            <div class=" shadow project-bottom p-2">
+                                <a href="wiki.html" > <img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2022/01/15/1017968-wikipedia.png" class="mt-2 w-100 project-image" /> </a>
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div class="">
+                                            <h1 class="project-item-heading"> Wikipedia Project </h1>
+                                            <p class="project-item-discription"> Food Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12  col-md-6 col-lg-4 mb-3">
+                            <div class=" shadow project-bottom p-2">
+                                <a href="tourism.html" > <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1693674593/width-600_height-400_msid-89826125_s9l8vc.jpg" class="mt-2 w-100 project-image" /></a>
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <h1 class="project-item-heading"> Tourism Website </h1>
+                                            <p class="project-item-discription"> Food Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-md-6 col-lg-4  mb-3">
+                            <div class=" shadow project-bottom p-2">
+                                <img src="https://www.codewithrandom.com/wp-content/uploads/2022/09/Number-Guessing-Game-using-JavaScript.png" class="mt-2 w-100 project-image" />
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <h1 class="project-item-heading"> Guess Game </h1>
+                                            <p class="project-item-discription"> Food Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-12 col-md-6 col-lg-4  mb-3">
+                            <div class=" shadow project-bottom p-2">
+                                <a href="grocery.html" > <img src="https://i0.wp.com/themes.svn.wordpress.org/grocery-shopping/2.2/screenshot.png" class="mt-2 w-100 project-image" /></a>
+                                <div class="project-bottom-item p-2 mt-3">
+                                    <div class="d-flex flex-row">
+                                        <div>
+                                            <h1 class="project-item-heading"> Grocery Website </h1>
+                                            <p class="project-item-discription"> grocery Restaurant Website </p>
+                                        </div>
+                                        <div class="ml-5 mt-4">
+                                            <a href=""> <i class="fa-solid fa-circle-plus project-icon"></i> </a>
+                                        </div>
+                                    </div>
+                                    <a href="" class="project-item-link"> View All
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-container pt-5 pb-5 p-3" id="sectionContact">
+                <h1 class="text-center contact-heading"> Contact me </h1>
+                <div class="container">
+                    <div class="row contact-bottom-container p-3 mt-4">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <h1 class="Services-heading text-center mt-2"> Send Message Us </h1>
+                            <form id="myForm" class="mt-4">
+                                <div class="mb-3">
+                                    <label for="name"> Name </label>
+                                    <input type="text" id="name" class="form-control" />
+                                    <p id="nameErrMsg" class="errorMessage"> </p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email"> Email </label>
+                                    <input type="text" id="email" class="form-control" />
+                                    <p id="emailErrMsg" class="errorMessage"> </p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject"> Subject </label>
+                                    <input type="text" id="subject" class="form-control" />
+                                    <p id="subjectErrMsg" class="errorMessage"> </p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message"> Message </label>
+                                    <textarea class="form-control w-100" id="message" rows="5"></textarea>
+                                    <p id="messageErrMsg" class="errorMessage"> </p>
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="btn btn-primary mt-2"> Submit </button>
+                                    <p id="resultErrMsg" class="text-success resultMessage mt-2"></p>
+                                </div>
+
+
+                            </form>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-6 mt-3">
+                            <h1 class="Services-heading text-center"> Get In Touch </h1>
+                            <p class="mt-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?
+                            </p>
+                            <div class="d-flex flex-row mb-2">
+                                <i class="fa-solid fa-location-dot contact-icon mt-1"></i>
+                                <div class="ml-3">
+                                    <p> (617) 557-0089</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row mb-2">
+                                <i class="fa-solid fa-phone contact-icon mt-1"></i>
+                                <div class="ml-3">
+                                    <p> contact@example.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row mb-2">
+                                <i class="fa-solid fa-message contact-icon mt-1"></i>
+                                <div class="ml-3">
+                                    <p> 329 WASHINGTON ST BOSTON, MA 02108</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-row">
+                                <a href="https://twitter.com/Nikhilgup12" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fa-brands fa-twitter icon1"></i>
+                                    </div>
+                                </a>
+                                <div class="follow-us-icon-container">
+                                    <i class="fa-brands fa-instagram icon1"></i>
+                                </div>
+                                <a href="https://www.facebook.com/nikhil.gyan.31" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fa-brands fa-facebook icon1"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nikhil-kumargupta/" target="_blank">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fa-brands fa-linkedin icon1"></i>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="text-center mt-5">
+                        <h1 class="footer-section-mail-id">© Copyright DevFolio. All Rights Reserved</h1>
+                        <p class="footer-section-address">
+                            Designed by Nikhil Gupta
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+
+let skillButton = document.getElementById("skillButton");
+let expButton = document.getElementById("expButton");
+let eduButton = document.getElementById("eduButton");
+let skillTab = document.getElementById("skillTab");
+let experiencesTab = document.getElementById("experiencesTab");
+let educationTab = document.getElementById("educationTab");
+
+
+experiencesTab.classList.add("d-none");
+educationTab.classList.add("d-none");
+
+function skillchangeButton() {
+    experiencesTab.classList.add("d-none");
+    educationTab.classList.add("d-none");
+    skillTab.classList.remove("d-none");
+    eduButton.classList.remove("selected-button");
+    expButton.classList.remove("selected-button");
+    skillButton.classList.add("selected-button");
+}
+
+function expchangeButton() {
+    educationTab.classList.add("d-none");
+    skillTab.classList.add("d-none");
+    experiencesTab.classList.remove("d-none");
+    expButton.classList.add("selected-button");
+    skillButton.classList.remove("selected-button");
+    eduButton.classList.remove("selected-button");
+
+
+}
+
+function educhangeButton() {
+    experiencesTab.classList.add("d-none");
+    skillTab.classList.add("d-none");
+    educationTab.classList.remove("d-none");
+    expButton.classList.remove("selected-button");
+    skillButton.classList.remove("selected-button");
+    eduButton.classList.add("selected-button");
+
+
+}
+
+/*function changebg() {
+    let navbar = document.getElementById("navbarID");
+    let scrollval = window.scrollY;
+    if (scrollval < 300) {
+        navbar.classList.remove("navbar-bg")
+    } else {
+        navbar.classList.add("navbar-bg")
+
+    }
+}
+
+
+window.addEventListener("scroll", changebg);*/
+
+let myForm = document.getElementById("myForm");
+let name = document.getElementById("name");
+let nameErrMsg = document.getElementById("nameErrMsg");
+let email = document.getElementById("email");
+let emailErrMsg = document.getElementById("emailErrMsg");
+let subject = document.getElementById("subject");
+let subjectErrMsg = document.getElementById("subjectErrMsg");
+let message = document.getElementById("message");
+let messageErrMsg = document.getElementById("messageErrMsg");
+let resultErrMsg = document.getElementById("resultErrMsg");
+
+let data = {
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+};
+name.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        nameErrMsg.textContent = "Please enter at least 4 chars";
+    } else {
+        nameErrMsg.textContent = "";
+    }
+    data.name = event.target.value;
+});
+email.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        emailErrMsg.textContent = "Please enter a valid email";
+    } else {
+        emailErrMsg.textContent = "";
+    }
+    data.email = event.target.value;
+});
+message.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        messageErrMsg.textContent = "Please enter at least 8 chars of subject";
+    } else {
+        messageErrMsg.textContent = "";
+    }
+    data.message = event.target.value;
+});
+subject.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        subjectErrMsg.textContent = "Please write something for us";
+    } else {
+        subjectErrMsg.textContent = "";
+    }
+    data.subject = event.target.value;
+});
+
+function validateFormData(data) {
+    let {
+        name,
+        email,
+        message,
+        subject
+    } = data;
+    if (name !== "" && email !== "" && message !== "" && subject !== "") {
+        resultErrMsg.textContent = "Login Success";
+    }
+    if (name === "") {
+        nameErrMsg.textContent = "Please enter at least 4 chars*";
+    }
+    if (email === "") {
+        emailErrMsg.textContent = "Please enter a valid email*";
+    }
+    if (message === "") {
+        messageErrMsg.textContent = "Please enter at least 8 chars of subject*";
+    }
+    if (subject === "") {
+        subjectErrMsg.textContent = "Please write something for us*";
+    }
+};
+
+function submitFormdata(data) {
+    let options = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+            Authorization: "bf513dc923a240916be80a2547500bd3725d5fcba460d6483af91a82cdbd6f6a"
+        },
+        body: JSON.stringify(data)
+
+    };
+    let url = "https://gorest.co.in/public-api/users";
+
+    fetch(url, options)
+        .then(function(response) {
+            return response.json();
+
+        })
+        .then(function(jsonData) {
+            if (jsonData.code === 422) {
+                if (jsonData.data[0].message === "has already been taken") {
+                    emailErrMsg.textContent = "Email Already Exists";
+                }
+            }
+            console.log(jsonData);
+
+        })
+
+};
+myForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    validateFormData(data);
+    submitFormdata(data);
+});
+let typed = new Typed(".auto-typed", {
+    strings: ["Nikhil", "Coder", "Developer"],
+    typespeed: 150,
+    backspeed: 150,
+    loop: true
+
+})
+
+    </script>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
